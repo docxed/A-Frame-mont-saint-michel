@@ -1,129 +1,159 @@
 <html>
-  <head>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <title>Mont-Saint-Michel</title>
-  </head>
-  <body>
-    <a-scene>
-      <!--cam speed-->
-      <a-entity camera="active: true" look-controls wasd-controls="acceleration: 8000" position="0 20 10"></a-entity>
 
-      <!--land-->
-      <a-box position="-33.5 -5 -17.5" rotation="90 0 0" color="#649d66" width="40" height="30"></a-box>
-      <a-cylinder position="25 -5 -35" rotation="0 0 0" color="#649d66" radius="15" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="-14 -5 -28" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="-14 -5 -18" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="-14 -5 -9.5" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1"></a-cylinder >
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <title>Mont-Saint-Michel</title>
+</head>
 
-      <a-cylinder position="-25 -5 -50" rotation="0 0 0" color="#649d66" radius="20" size="50" width="" height="1"></a-cylinder >
-      <a-box position="-33.5 -5 -45" rotation="90 0 0" color="#649d66" width="40" height="30"></a-box>
-      <a-cylinder position="-38.5 -5 -60" rotation="0 0 0" color="#649d66" radius="15" size="50" width="" height="1"></a-cylinder >
+<body>
+  <a-scene>
+    <!--cam speed-->
+    <a-entity camera="active: true" look-controls wasd-controls="acceleration: 8000" position="0 20 10"></a-entity>
 
-      <a-cylinder position="-14 -5 -35" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="-10 -5 -34" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="-1 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="3 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1"></a-cylinder >
-      <a-cylinder position="8 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1"></a-cylinder >
-      <a-box position="-21 -4.8 -34" rotation="90 0 0" color="#888888" width="65" height="2.5"></a-box>
+    <!--land-->
+    <a-box position="-33.5 -5 -17.5" rotation="90 0 0" color="#649d66" width="40" height="30"></a-box>
+    <a-cylinder position="25 -5 -35" rotation="0 0 0" color="#649d66" radius="15" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="-14 -5 -28" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="-14 -5 -18" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="-14 -5 -9.5" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1">
+    </a-cylinder>
 
-      <!--River-->
-      <a-plane position="-6 -5 -50" color="#00a1ab" rotation="-90 0 0" width="95" height="95"></a-plane>
+    <a-cylinder position="-25 -5 -50" rotation="0 0 0" color="#649d66" radius="20" size="50" width="" height="1">
+    </a-cylinder>
+    <a-box position="-33.5 -5 -45" rotation="90 0 0" color="#649d66" width="40" height="30"></a-box>
+    <a-cylinder position="-38.5 -5 -60" rotation="0 0 0" color="#649d66" radius="15" size="50" width="" height="1">
+    </a-cylinder>
 
-      <!--Black Tunnel-->
-      <a-box position="-51.6 -3.5 -34" color="#120136" width="4" Height="2" depth="2.4"></a-box>
+    <a-cylinder position="-14 -5 -35" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="-10 -5 -34" rotation="0 0 0" color="#649d66" radius="7" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="-1 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="3 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1">
+    </a-cylinder>
+    <a-cylinder position="8 -5 -34" rotation="0 0 0" color="#649d66" radius="3" size="50" width="" height="1">
+    </a-cylinder>
+    <a-box position="-21 -4.8 -34" rotation="90 0 0" color="#888888" width="65" height="2.5"></a-box>
 
-      <!--all_car-->
+    <!--River-->
+    <a-plane position="-6 -5 -50" color="#00a1ab" rotation="-90 0 0" width="95" height="95"></a-plane>
 
-        <!--car1-->
-          <!--animation car1-->
-          <a-entity animation="property: position; to: 60; dur: 5000; loop: true;">
+    <!--Black Tunnel-->
+    <a-box position="-51.6 -3.5 -34" color="#120136" width="4" Height="2" depth="2.4"></a-box>
 
-          <!--car1 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+    <!--all_car-->
 
-          <!--car1 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#d63447" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#d63447" height="0.5"></a-box></a-entity>
+    <!--car1-->
+    <!--animation car1-->
+    <a-entity animation="property: position; to: 60; dur: 5000; loop: true;">
 
-        <!--car2-->
-          <!--animation car2-->
-          <a-entity animation="property: position; to: 60; dur: 6000; loop: true;">
+      <!--car1 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
 
-          <!--car2 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <!--car1 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#d63447" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#d63447" height="0.5"></a-box>
+    </a-entity>
 
-          <!--car2 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#ff5200" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#ff5200" height="0.5"></a-box></a-entity>
+    <!--car2-->
+    <!--animation car2-->
+    <a-entity animation="property: position; to: 60; dur: 6000; loop: true;">
 
-        <!--car3-->
+      <!--car2 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
 
-        <!--animation car3-->
-          <a-entity animation="property: position; to: 60; dur: 7000; loop: true;">
+      <!--car2 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#ff5200" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#ff5200" height="0.5"></a-box>
+    </a-entity>
 
-          <!--car3 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+    <!--car3-->
 
-          <!--car3 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#ffd31d" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#ffd31d" height="0.5"></a-box></a-entity>
+    <!--animation car3-->
+    <a-entity animation="property: position; to: 60; dur: 7000; loop: true;">
 
-        <!--car4-->
+      <!--car3 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
 
-        <!--animation car4-->
-          <a-entity animation="property: position; to: 60; dur: 8000; loop: true;">
+      <!--car3 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#ffd31d" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#ffd31d" height="0.5"></a-box>
+    </a-entity>
 
-          <!--car4 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+    <!--car4-->
 
-          <!--car4 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#06623b" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#06623b" height="0.5"></a-box></a-entity>
+    <!--animation car4-->
+    <a-entity animation="property: position; to: 60; dur: 8000; loop: true;">
 
-        <!--car5-->
+      <!--car4 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
 
-        <!--animation car5-->
-          <a-entity animation="property: position; to: 60; dur: 9000; loop: true;">
+      <!--car4 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#06623b" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#06623b" height="0.5"></a-box>
+    </a-entity>
 
-          <!--car5 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+    <!--car5-->
 
-          <!--car5 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#649d66" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#649d66" height="0.5"></a-box></a-entity>
+    <!--animation car5-->
+    <a-entity animation="property: position; to: 60; dur: 9000; loop: true;">
 
-        <!--car6-->
+      <!--car5 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
 
-        <!--animation car6-->
-          <a-entity animation="property: position; to: 60; dur: 10000; loop: true;">
+      <!--car5 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#649d66" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#649d66" height="0.5"></a-box>
+    </a-entity>
 
-          <!--car6 Wheels-->
-          <a-cylinder position="-52 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
-          <a-cylinder position="-51 -3.9 -34.15" color ="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+    <!--car6-->
 
-          <!--car6 Body-->
-          <a-box position="-51.5 -3.5 -34.15" color = "#16817a" width="2.5" height="0.5"></a-box>
-          <a-box position="-51.5 -3.0 -34.15" color = "#16817a" height="0.5"></a-box></a-entity>
-      
-         <!--Mountain-->
-      <a-sphere position="31 -5 -34" rotation="0 0 0" color="#649d66" radius="8" size="50" width="12" height="30"></a-cylinder>
-      <a-sphere position="0 0 -8" rotation="0 0 0" color="#649d66" radius="6" size="50" width="12" height="30"></a-cylinder>
-       <a-sphere position="-2 0 14"rotation="0 0 0 "color="#649d66" radius="6" size="50" width="12" height="30"></a-cylinder>
-       <a-sphere position="-2 0 0"rotation="0 0 0 "color="#649d66" radius="6" size="50" width="12" height="30"></a-cylinder>
-       <a-sphere position="-2 0 0"rotation="0 0 0 "color="#649d66" radius="5.9" size="50" width="12" height="30"></a-cylinder>
-      <a-box position="-3 2 -10" rotation = "-90 0 0"color="#649d66"
-               width="14" height="7" depth="3"></a-box>
-      <a-sphere position="-1 2 -5"rotation="0 0 0 "color="#649d66" radius="3.6" size="50" width="12" height="30"></a-cylinder>
-      <a-sphere position="-3 -1 0"rotation="0 0 0 "color="#649d66" radius="3.6" size="50" width="12" height="30"></a-cylinder>
-      <a-sphere position="-3 0 0"rotation="0 0 0 "color="#649d66" radius="3.5" size="50" width="12" height="30"></a-cylinder>
-       <a-box position="2 0.6 5" rotation = "11 0 20"color="#649d66"
-               width="10" height="3" depth="6"></a-box>
+    <!--animation car6-->
+    <a-entity animation="property: position; to: 60; dur: 10000; loop: true;">
 
-    </a-scene>
-  </body>
+      <!--car6 Wheels-->
+      <a-cylinder position="-52 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+      <a-cylinder position="-51 -3.9 -34.15" color="#120136" rotation="90 0 0" radius="0.3" height="1"></a-cylinder>
+
+      <!--car6 Body-->
+      <a-box position="-51.5 -3.5 -34.15" color="#16817a" width="2.5" height="0.5"></a-box>
+      <a-box position="-51.5 -3.0 -34.15" color="#16817a" height="0.5"></a-box>
+    </a-entity>
+
+    <!--Mountain-->
+    <a-sphere position="31 -5 -34" rotation="0 0 0" color="#649d66" radius="8" size="50" width="12" height="30">
+      </a-cylinder>
+      <a-sphere position="0 0 -8" rotation="0 0 0" color="#649d66" radius="6" size="50" width="12" height="30">
+        </a-cylinder>
+        <a-sphere position="-2 0 14" rotation="0 0 0 " color="#649d66" radius="6" size="50" width="12" height="30">
+          </a-cylinder>
+          <a-sphere position="-2 0 0" rotation="0 0 0 " color="#649d66" radius="6" size="50" width="12" height="30">
+            </a-cylinder>
+            <a-sphere position="-2 0 0" rotation="0 0 0 " color="#649d66" radius="5.9" size="50" width="12" height="30">
+              </a-cylinder>
+              <a-box position="-3 2 -10" rotation="-90 0 0" color="#649d66" width="14" height="7" depth="3"></a-box>
+              <a-sphere position="-1 2 -5" rotation="0 0 0 " color="#649d66" radius="3.6" size="50" width="12"
+                height="30">
+                </a-cylinder>
+                <a-sphere position="-3 -1 0" rotation="0 0 0 " color="#649d66" radius="3.6" size="50" width="12"
+                  height="30">
+                  </a-cylinder>
+                  <a-sphere position="-3 0 0" rotation="0 0 0 " color="#649d66" radius="3.5" size="50" width="12"
+                    height="30">
+                    </a-cylinder>
+                    <a-box position="2 0.6 5" rotation="11 0 20" color="#649d66" width="10" height="3" depth="6">
+                    </a-box>
+
+  </a-scene>
+</body>
+
 </html>

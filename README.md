@@ -13,3 +13,18 @@
 | Pitchaya Singmeesri | Phalat Wongsitthipornrung |
 | 62070139 | 62070134 |
 
+## Instructor
+| <img src="https://raw.githubusercontent.com/docxed/A-Frame-mont-saint-michel/master/img/spw.jpg" width="100" height="100"> |
+| :------------: |
+| Dr. Supawan Annanab |
+
+
+------------
+
+รายงานนี้เป็นส่วนหนึ่งของวิชา Multimedia Technology (รหัส 06016311)
+
+คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+
+Faculty of Information Technology
+
+King Mongkut's Institute of Technology Ladkrabang

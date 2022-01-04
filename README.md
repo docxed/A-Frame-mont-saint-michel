@@ -10,7 +10,7 @@
 | Akira Seesanyong | Soodket Sancharoen	 | Vichayuth Tavichaiyuth |
 | 62070215 | 62070204 | 62070168 |
 
-| <img src="https://raw.githubusercontent.com/docxed/A-Frame-mont-saint-michel/master/img/139.jpg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/docxed/A-Frame-mont-saint-michel/master/img/134.jpg" width="100" height="100"> |
+| <img src="https://raw.githubusercontent.com/docxed/A-Frame-mont-saint-michel/master/img/139.jpg" width="100" height="100"> | <img src="https://user-images.githubusercontent.com/57059698/147997509-41d407f7-0579-448f-9605-7a30f7c48daa.jpg" width="100" height="100"> |
 | :------------: | :------------: |
 | [@boss26974](https://github.com/boss26974 "@boss26974") | [@phalat1590](https://github.com/phalat1590 "@phalat1590") |
 | Pitchaya Singmeesri | Phalat Wongsitthipornrung |
